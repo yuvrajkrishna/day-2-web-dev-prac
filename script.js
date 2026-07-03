@@ -4,6 +4,9 @@ let realprogress = document.querySelector(".real-progress")
 btn.addEventListener('click',function(){
     let count = 0 
     let int = setInterval(()=>{
-
+        if(count == 100){
+            clearInterval(int)
+        }
+        
     },100)
 })
