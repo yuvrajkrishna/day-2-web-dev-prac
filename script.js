@@ -8,7 +8,6 @@ btn.addEventListener('click',function(){
             clearInterval(int)
         }
         realprogress.style.width = `${count}%`
-        
-
+        count++
     },100)
 })
