@@ -6,6 +6,7 @@ btn.addEventListener('click',function(){
     let int = setInterval(()=>{
         if(count == 100){
             clearInterval(int)
+            btn.textContent = 'Downloaded'
         }
         realprogress.style.width = `${count}%`
         count++
